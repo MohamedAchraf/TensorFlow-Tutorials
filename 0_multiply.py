@@ -2,8 +2,8 @@
 
 import tensorflow as tf
 
-a = tf.placeholder("float") # Create a symbolic variable 'a'
-b = tf.placeholder("float") # Create a symbolic variable 'b'
+a = tf.placeholder("float") # Create a symbolic variable 'a'.
+b = tf.placeholder("float") # Create a symbolic variable 'b'.
 
 y = tf.mul(a, b) # multiply the symbolic variables
 
