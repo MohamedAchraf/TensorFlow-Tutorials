@@ -6,7 +6,7 @@ a = tf.placeholder(tf.int8) # Create a symbolic variable 'a'
 b = tf.placeholder(tf.int8) # Create a symbolic variable 'b'
 
 y = tf.mul(a, b) # multiply the symbolic variables
-# test comment
+
 
 with tf.Session() as sess: # create a session to evaluate the symbolic expressions
     print "%d should equal 2.0" % sess.run(y, feed_dict={a: 1, b: 2}) # eval expressions with parameters for a and b
